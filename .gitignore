@@ -1,0 +1,11 @@
+# Environment Variables:
+.env
+
+## venv
+.venv
+
+## continue
+.continue
+.old
+
+
