@@ -1,8 +1,15 @@
 # tg-bot-disclosure
 
-# Attack surface: Telegram Bot API (e.g. https://api.telegram.org/bot<token>/setMyCommands)
+# Attack surface: Telegram Bot API:
 
-# Severity: 8.3 (High) \[Estimated CVSS v3.1 score]
+
+
+Telegram Bot API setMyCommands
+https://api.telegram.org/bot<token>/setMyCommands
+
+# Severity: 9.0 (Critical) \ [Estimated CVSS v3.1 score]
+
+CVSS:4.0/AV:N/AC:H/AT:P/PR:L/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:A/MAV:N/MAC:H/MAT:N/MPR:L/MUI:N/MVC:H/MVI:H/MVA:H/AU:Y/V:C/RE:L/U:Red
 
 ## Description
 
