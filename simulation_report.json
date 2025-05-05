@@ -1,0 +1,52 @@
+{
+  "simulation": true,
+  "bot_info": {
+    "ok": true,
+    "result": {
+      "id": 7489045864,
+      "is_bot": true,
+      "first_name": "LFGBot",
+      "username": "LFGNowBot",
+      "can_join_groups": true,
+      "can_read_all_group_messages": false,
+      "supports_inline_queries": false,
+      "can_connect_to_business": false,
+      "has_main_web_app": true
+    }
+  },
+  "original_commands": {
+    "ok": true,
+    "result": [
+      {
+        "command": "start",
+        "description": "Start the bot"
+      },
+      {
+        "command": "help",
+        "description": "Get help"
+      },
+      {
+        "command": "settings",
+        "description": "Change settings"
+      },
+      {
+        "command": "info",
+        "description": "Get information"
+      }
+    ]
+  },
+  "exploit_remove_commands": {
+    "timestamp": "2025-05-05T22:39:25Z",
+    "response": {
+      "ok": true,
+      "result": true
+    }
+  },
+  "exploit_restore_commands": {
+    "timestamp": "2025-05-05T22:39:26Z",
+    "response": {
+      "ok": true,
+      "result": true
+    }
+  }
+}
