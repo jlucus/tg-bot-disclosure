@@ -1,0 +1,235 @@
+{
+  "timestamp": "2025-05-05T16:00:46Z",
+  "bot_token": "74890...5TMZA",
+  "user_a_username": "@supitsj",
+  "user_b_username": "@gmgamba",
+  "endpoints": {
+    "setMyCommands": {
+      "timestamp": "2025-05-05T16:00:22Z",
+      "status_code": 200,
+      "response": {
+        "ok": true,
+        "result": true
+      },
+      "params": {
+        "commands": []
+      },
+      "http_method": "POST"
+    },
+    "deleteMyCommands": {
+      "timestamp": "2025-05-05T16:00:23Z",
+      "status_code": 200,
+      "response": {
+        "ok": true,
+        "result": true
+      },
+      "params": {},
+      "http_method": "POST"
+    },
+    "setMyName": {
+      "timestamp": "2025-05-05T16:00:25Z",
+      "status_code": 200,
+      "response": {
+        "ok": true,
+        "result": true
+      },
+      "params": {
+        "name": "Test Bot"
+      },
+      "http_method": "POST"
+    },
+    "setMyDescription": {
+      "timestamp": "2025-05-05T16:00:26Z",
+      "status_code": 200,
+      "response": {
+        "ok": true,
+        "result": true
+      },
+      "params": {
+        "description": "Test description"
+      },
+      "http_method": "POST"
+    },
+    "setMyShortDescription": {
+      "timestamp": "2025-05-05T16:00:28Z",
+      "status_code": 200,
+      "response": {
+        "ok": true,
+        "result": true
+      },
+      "params": {
+        "short_description": "Test short description"
+      },
+      "http_method": "POST"
+    },
+    "setChatMenuButton": {
+      "timestamp": "2025-05-05T16:00:29Z",
+      "status_code": 200,
+      "response": {
+        "ok": true,
+        "result": true
+      },
+      "params": {
+        "menu_button": {
+          "type": "default"
+        }
+      },
+      "http_method": "POST"
+    },
+    "setMyDefaultAdministratorRights": {
+      "timestamp": "2025-05-05T16:00:31Z",
+      "status_code": 200,
+      "response": {
+        "ok": true,
+        "result": true
+      },
+      "params": {
+        "rights": {
+          "can_manage_chat": true,
+          "can_post_messages": true
+        }
+      },
+      "http_method": "POST"
+    },
+    "setWebhook": {
+      "timestamp": "2025-05-05T16:00:32Z",
+      "status_code": 200,
+      "response": {
+        "ok": true,
+        "result": true,
+        "description": "Webhook is already deleted"
+      },
+      "params": {
+        "url": ""
+      },
+      "http_method": "POST"
+    },
+    "deleteWebhook": {
+      "timestamp": "2025-05-05T16:00:33Z",
+      "status_code": 200,
+      "response": {
+        "ok": true,
+        "result": true,
+        "description": "Webhook is already deleted"
+      },
+      "params": {},
+      "http_method": "POST"
+    },
+    "getMe": {
+      "timestamp": "2025-05-05T16:00:35Z",
+      "status_code": 200,
+      "response": {
+        "ok": true,
+        "result": {
+          "id": 7489045864,
+          "is_bot": true,
+          "first_name": "Test Bot",
+          "username": "LFGNowBot",
+          "can_join_groups": true,
+          "can_read_all_group_messages": false,
+          "supports_inline_queries": false,
+          "can_connect_to_business": false,
+          "has_main_web_app": true
+        }
+      },
+      "params": {},
+      "http_method": "GET"
+    },
+    "getMyCommands": {
+      "timestamp": "2025-05-05T16:00:36Z",
+      "status_code": 200,
+      "response": {
+        "ok": true,
+        "result": []
+      },
+      "params": {},
+      "http_method": "GET"
+    },
+    "getMyName": {
+      "timestamp": "2025-05-05T16:00:37Z",
+      "status_code": 200,
+      "response": {
+        "ok": true,
+        "result": {
+          "name": "Test Bot"
+        }
+      },
+      "params": {},
+      "http_method": "GET"
+    },
+    "getMyDescription": {
+      "timestamp": "2025-05-05T16:00:39Z",
+      "status_code": 200,
+      "response": {
+        "ok": true,
+        "result": {
+          "description": "Test description"
+        }
+      },
+      "params": {},
+      "http_method": "GET"
+    },
+    "getMyShortDescription": {
+      "timestamp": "2025-05-05T16:00:40Z",
+      "status_code": 200,
+      "response": {
+        "ok": true,
+        "result": {
+          "short_description": "Test short description"
+        }
+      },
+      "params": {},
+      "http_method": "GET"
+    },
+    "getChatMenuButton": {
+      "timestamp": "2025-05-05T16:00:42Z",
+      "status_code": 200,
+      "response": {
+        "ok": true,
+        "result": {
+          "type": "commands"
+        }
+      },
+      "params": {},
+      "http_method": "GET"
+    },
+    "getMyDefaultAdministratorRights": {
+      "timestamp": "2025-05-05T16:00:44Z",
+      "status_code": 200,
+      "response": {
+        "ok": true,
+        "result": {
+          "can_manage_chat": false,
+          "can_change_info": false,
+          "can_delete_messages": false,
+          "can_invite_users": false,
+          "can_restrict_members": false,
+          "can_pin_messages": false,
+          "can_manage_topics": false,
+          "can_promote_members": false,
+          "can_manage_video_chats": false,
+          "can_post_stories": false,
+          "can_edit_stories": false,
+          "can_delete_stories": false,
+          "is_anonymous": false
+        }
+      },
+      "params": {},
+      "http_method": "GET"
+    },
+    "getWebhookInfo": {
+      "timestamp": "2025-05-05T16:00:45Z",
+      "status_code": 200,
+      "response": {
+        "ok": true,
+        "result": {
+          "url": "",
+          "has_custom_certificate": false,
+          "pending_update_count": 0
+        }
+      },
+      "params": {},
+      "http_method": "GET"
+    }
+  }
+}
