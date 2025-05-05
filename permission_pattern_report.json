@@ -1,0 +1,456 @@
+{
+  "timestamp": "2025-05-05T16:03:20Z",
+  "bot_token": "74890...5TMZA",
+  "user_a_username": "@supitsj",
+  "user_b_username": "@gmgamba",
+  "before_transfer": {
+    "Bot Commands": {
+      "add_success": true,
+      "remove_success": true,
+      "get_success": true
+    },
+    "Bot Name": {
+      "add_success": true,
+      "remove_success": false,
+      "get_success": true
+    },
+    "Bot Description": {
+      "add_success": true,
+      "remove_success": true,
+      "get_success": true
+    },
+    "Bot Short Description": {
+      "add_success": true,
+      "remove_success": true,
+      "get_success": true
+    }
+  },
+  "after_transfer": {
+    "Bot Commands": {
+      "add_success": true,
+      "remove_success": true,
+      "get_success": true
+    },
+    "Bot Name": {
+      "add_success": true,
+      "remove_success": false,
+      "get_success": true
+    },
+    "Bot Description": {
+      "add_success": true,
+      "remove_success": true,
+      "get_success": true
+    },
+    "Bot Short Description": {
+      "add_success": true,
+      "remove_success": true,
+      "get_success": true
+    }
+  },
+  "detailed_responses": {
+    "bot_commands_before_transfer": {
+      "add": {
+        "timestamp": "2025-05-05T16:02:28Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": true
+        },
+        "params": {
+          "commands": [
+            {
+              "command": "test",
+              "description": "Test command"
+            }
+          ]
+        },
+        "http_method": "POST"
+      },
+      "get_after_add": {
+        "timestamp": "2025-05-05T16:02:32Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": []
+        },
+        "params": {},
+        "http_method": "GET"
+      },
+      "remove": {
+        "timestamp": "2025-05-05T16:02:30Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": true
+        },
+        "params": {
+          "commands": []
+        },
+        "http_method": "POST"
+      },
+      "get_after_remove": {
+        "timestamp": "2025-05-05T16:02:32Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": []
+        },
+        "params": {},
+        "http_method": "GET"
+      }
+    },
+    "bot_name_before_transfer": {
+      "add": {
+        "timestamp": "2025-05-05T16:02:34Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": true
+        },
+        "params": {
+          "name": "Test Bot Name"
+        },
+        "http_method": "POST"
+      },
+      "get_after_add": {
+        "timestamp": "2025-05-05T16:02:37Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": {
+            "name": "Test Bot Name"
+          }
+        },
+        "params": {},
+        "http_method": "GET"
+      },
+      "remove": {
+        "timestamp": "2025-05-05T16:02:36Z",
+        "status_code": 400,
+        "response": {
+          "ok": false,
+          "error_code": 400,
+          "description": "Bad Request: BOT_TITLE_INVALID"
+        },
+        "params": {
+          "name": ""
+        },
+        "http_method": "POST"
+      },
+      "get_after_remove": {
+        "timestamp": "2025-05-05T16:02:37Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": {
+            "name": "Test Bot Name"
+          }
+        },
+        "params": {},
+        "http_method": "GET"
+      }
+    },
+    "bot_description_before_transfer": {
+      "add": {
+        "timestamp": "2025-05-05T16:02:39Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": true
+        },
+        "params": {
+          "description": "Test bot description with detailed information"
+        },
+        "http_method": "POST"
+      },
+      "get_after_add": {
+        "timestamp": "2025-05-05T16:02:42Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": {
+            "description": ""
+          }
+        },
+        "params": {},
+        "http_method": "GET"
+      },
+      "remove": {
+        "timestamp": "2025-05-05T16:02:41Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": true
+        },
+        "params": {
+          "description": ""
+        },
+        "http_method": "POST"
+      },
+      "get_after_remove": {
+        "timestamp": "2025-05-05T16:02:42Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": {
+            "description": ""
+          }
+        },
+        "params": {},
+        "http_method": "GET"
+      }
+    },
+    "bot_short_description_before_transfer": {
+      "add": {
+        "timestamp": "2025-05-05T16:02:44Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": true
+        },
+        "params": {
+          "short_description": "Test short description"
+        },
+        "http_method": "POST"
+      },
+      "get_after_add": {
+        "timestamp": "2025-05-05T16:02:47Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": {
+            "short_description": ""
+          }
+        },
+        "params": {},
+        "http_method": "GET"
+      },
+      "remove": {
+        "timestamp": "2025-05-05T16:02:46Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": true
+        },
+        "params": {
+          "short_description": ""
+        },
+        "http_method": "POST"
+      },
+      "get_after_remove": {
+        "timestamp": "2025-05-05T16:02:47Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": {
+            "short_description": ""
+          }
+        },
+        "params": {},
+        "http_method": "GET"
+      }
+    },
+    "bot_commands_after_transfer": {
+      "add": {
+        "timestamp": "2025-05-05T16:03:00Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": true
+        },
+        "params": {
+          "commands": [
+            {
+              "command": "test",
+              "description": "Test command"
+            }
+          ]
+        },
+        "http_method": "POST"
+      },
+      "get_after_add": {
+        "timestamp": "2025-05-05T16:03:03Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": []
+        },
+        "params": {},
+        "http_method": "GET"
+      },
+      "remove": {
+        "timestamp": "2025-05-05T16:03:02Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": true
+        },
+        "params": {
+          "commands": []
+        },
+        "http_method": "POST"
+      },
+      "get_after_remove": {
+        "timestamp": "2025-05-05T16:03:03Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": []
+        },
+        "params": {},
+        "http_method": "GET"
+      }
+    },
+    "bot_name_after_transfer": {
+      "add": {
+        "timestamp": "2025-05-05T16:03:05Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": true
+        },
+        "params": {
+          "name": "Test Bot Name"
+        },
+        "http_method": "POST"
+      },
+      "get_after_add": {
+        "timestamp": "2025-05-05T16:03:08Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": {
+            "name": "Test Bot Name"
+          }
+        },
+        "params": {},
+        "http_method": "GET"
+      },
+      "remove": {
+        "timestamp": "2025-05-05T16:03:07Z",
+        "status_code": 400,
+        "response": {
+          "ok": false,
+          "error_code": 400,
+          "description": "Bad Request: BOT_TITLE_INVALID"
+        },
+        "params": {
+          "name": ""
+        },
+        "http_method": "POST"
+      },
+      "get_after_remove": {
+        "timestamp": "2025-05-05T16:03:08Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": {
+            "name": "Test Bot Name"
+          }
+        },
+        "params": {},
+        "http_method": "GET"
+      }
+    },
+    "bot_description_after_transfer": {
+      "add": {
+        "timestamp": "2025-05-05T16:03:10Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": true
+        },
+        "params": {
+          "description": "Test bot description with detailed information"
+        },
+        "http_method": "POST"
+      },
+      "get_after_add": {
+        "timestamp": "2025-05-05T16:03:13Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": {
+            "description": ""
+          }
+        },
+        "params": {},
+        "http_method": "GET"
+      },
+      "remove": {
+        "timestamp": "2025-05-05T16:03:12Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": true
+        },
+        "params": {
+          "description": ""
+        },
+        "http_method": "POST"
+      },
+      "get_after_remove": {
+        "timestamp": "2025-05-05T16:03:13Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": {
+            "description": ""
+          }
+        },
+        "params": {},
+        "http_method": "GET"
+      }
+    },
+    "bot_short_description_after_transfer": {
+      "add": {
+        "timestamp": "2025-05-05T16:03:15Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": true
+        },
+        "params": {
+          "short_description": "Test short description"
+        },
+        "http_method": "POST"
+      },
+      "get_after_add": {
+        "timestamp": "2025-05-05T16:03:18Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": {
+            "short_description": ""
+          }
+        },
+        "params": {},
+        "http_method": "GET"
+      },
+      "remove": {
+        "timestamp": "2025-05-05T16:03:17Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": true
+        },
+        "params": {
+          "short_description": ""
+        },
+        "http_method": "POST"
+      },
+      "get_after_remove": {
+        "timestamp": "2025-05-05T16:03:18Z",
+        "status_code": 200,
+        "response": {
+          "ok": true,
+          "result": {
+            "short_description": ""
+          }
+        },
+        "params": {},
+        "http_method": "GET"
+      }
+    }
+  }
+}
